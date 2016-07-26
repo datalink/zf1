@@ -1,6 +1,6 @@
 {
-    "name": "zendframework/zendframework1",
-    "description": "Zend Framework 1",
+    "name": "datalink/zf1-tests",
+    "description": "Datalink fork of Zend Framework 1 to export tests only",
     "type": "library",
     "keywords": [
         "framework",
@@ -11,14 +11,6 @@
     "require": {
         "php": ">=5.2.11"
     },
-    "autoload": {
-        "psr-0": {
-            "Zend_": "library/"
-        }
-    },
-    "include-path": [
-        "library/"
-    ],
     "config": {
         "bin-dir": "bin"
     },

@@ -1,3 +1,14 @@
+## datalink/zf1-tests
+
+Fork of the [offical Zend Framework 1 package](https://github.com/zendframework/zf1) to allow just `tests/` to be exported as a Composer module.
+
+Summary of changes to `HEAD` of `master` as follows:
+
+* `.gitattributes` modified to export `tests/` only
+* `composer.json` modified to rename package and remove `autoload` and `include-path` stanzas
+
+---
+
 ![Logo](http://framework.zend.com/images/logos/ZendFramework-logo.png)
 
 > ## End-of-Life occurred 28 Sep 2016
