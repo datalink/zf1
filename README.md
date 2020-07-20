@@ -6,6 +6,7 @@ Summary of changes to `HEAD` of `master` as follows:
 
 * `.gitattributes` modified to export `tests/` only
 * `composer.json` modified to rename package and remove `autoload` and `include-path` stanzas
+* Commented obsolete require for `Zend_RegistryTest`
 
 ---
 
